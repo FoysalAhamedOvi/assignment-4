@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <button id="book-now" class="btn-style">Book Now</button>
         </div>
     </main>
 
@@ -160,6 +160,10 @@
             return myTicketCount;
 
         }
+        // book now event listener
+        const bookNow = document.getElementById('book-now').addEventListener('click', function(){
+            alert("Congratulation, Your Honeymoon trip is booked!")
+        })
     </script>
 </body>
 
